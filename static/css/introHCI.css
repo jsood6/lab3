@@ -7,6 +7,7 @@
 .example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
 	color: #CC00AA;
+     
 }
 
 /* this style exists to make it obvious that you've successfully linked
@@ -35,8 +36,14 @@ body {
 
 .jumbotron p {
      color: #6e6e6e;
+    
 }
 
 .project a {
      text-align: center;
 }
+
+.jumbotron p.active {
+     color: #1f6ddd;
+}
+
